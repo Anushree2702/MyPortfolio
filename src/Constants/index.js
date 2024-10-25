@@ -1,20 +1,21 @@
-import project1 from "../assets/projects/codeup.png";
-import project2 from "../assets/projects/portfolio.png";
-import project3 from "../assets/projects/project3.jpg";
+import project4 from "../assets/projects/project1.png"
+import project1 from "../assets/projects/portfolio.png";
+import project3 from "../assets/projects/project3.png";
+import project2 from "../assets/projects/project2.png"
 import code from "../assets/projects/code.png"
 
 export const HERO_CONTENT = `
-  I am a Full Stack Development enthusiast passionate about building dynamic and scalable websites. I specialize in React.js, Node.js, and other modern web technologies, and I love solving DSA problems on LeetCode. Currently, I'm enhancing my skills in Docker, best practices for building robust applications, and diving into the world of Web3 and DevOps through a course I'm enrolled in.
+  I am a JAVA Developer enthusiast passionate about building dynamic and scalable websites. My techstack include Java , SpringBoot , AWS and other modern technologies, and I love solving DSA problems on LeetCode. Currently, I'm enhancing my skills in SprinBoot, best practices for building robust applications.
   Check out my projects on GitHub and connect with me on Twitter to follow my journey in the tech world.
 `;
 
 
+
 export const ABOUT_TEXT = `
-  I'm Kamna Bhadoriya, a passionate Full Stack Web Developer and problem solver with a keen interest in exploring the tech world 
-  and continuously learning new technologies. I specialize in Web Development, leveraging my expertise in HTML, CSS, 
-  JavaScript, React, Node.js, and more to build dynamic and scalable applications.
+  I'm Anushree Srivastava, a passionate Java Developer and problem solver with a keen interest in exploring the tech world 
+  and continuously learning new technologies. I specialize in SpringBoot , Cloud Computing(AWS) and more to build dynamic and scalable applications.
   Education:
-  - BE in Computer Engineering from AISSMS IOIT College, Savitribai Phule Pune University (2021 - 2025) - CGPA: 8.6/10. 
+  - BE in Computer Engineering from Babu Banarasi Das University (2021 - 2025) - CGPA: 9.3/10. 
   I'm always open to new opportunities and collaborations. Feel free to reach out!
 `;
 
@@ -22,32 +23,53 @@ export const ABOUT_TEXT = `
 
 export const EXPERIENCES = [
   {
-    year: "2023 - 2024",
-    role: "Full Stack Developer Intern",
-    company: "Inlustro Company",
-    description: `Engineered and maintained a scalable online learning platform using React.js, Node.js, Tailwind CSS, PostgreSQL, Prisma, NestJS, and TypeScript; optimized database queries and enhanced overall system performance. Engineered a robust API in Node.js and NestJS, enabling seamless data retrieval from a PostgreSQL database, improving user experience. Integrated Judge0 API to create an online compiler supporting multiple programming languages, enhancing coding efficiency.`,
-    technologies: ["React.js", "Node.js", "Tailwind CSS", "PostgreSQL", "Prisma", "NestJS", "TypeScript"],
+    year: "June 2024 - July 2024",
+    role: "AWS CLOUD COMPUTING STUDENT TRAINEE",
+    company: "The Ikigai Lab",
+    description: `Gained practical experience with AWS services, including VPC, NAT, Internet Gateways, and secure public/private networks. Worked on auto-scaling, load balancing, RDS, S3, and EFS. Optimised content delivery with CloudFront and implemented CloudWatch for monitoring. This experience enhanced my skills in cloud architecture, scalability, and DevOps principles, positioning me to contribute to cloud infrastructure optimisation and performance enhancement in future roles.`,
+    technologies: ["AWS","VPC","NAT","INTERNET GATEWAY","AUTOSCALING","LOAD BALANCING","RDS","EFS","CLOUD FRONT","CLOUD WATCH"],
   },
 ];
 
 
 export const PROJECTS = [
   {
-    title: "CodeUp",
-    image: project1,
-    github: "https://github.com/Kamna16/CodeUp",
-    link: "https://codeup-three.vercel.app/",
+    title: "AWS PROJECT DOCUMENTATION",
+    image: project3, 
+    github: "https://www.linkedin.com/feed/update/urn:li:activity:7216836377156411393/",
+     link: "",
+     description:
+       "Configured a VPC with NAT Gateway, Internet Gateway, and autoscaling for real-time traffic management, reducing downtime by 25% . Set up RDS , EFS , and S3 for secure storage solutions, and leveraged CloudFront for optimized content delivery. Enabled CloudWatch for monitoring, providing real-time insights into performance and system health, enhancing overall stability and scalability.",
+     technologies: ["AWS","VPC","NAT","INTERNET GATEWAY","AUTOSCALING","LOAD BALANCING","RDS","EFS","CLOUD FRONT","CLOUD WATCH"],
+    },
+    {
+      title: "E-COMMERCE WEBSITE",
+      image: project2, 
+      github: "https://github.com/Anushree2702/ECOMMERCE-WEBSITE",
+       link: "",
+       description:
+         "Developed a full-stack e-commerce application using Java Spring Boot(backend), React (frontend), and H2 database. The platform supports adding, updating, and deleting products with image handling, implementing robust CRUD operations and a responsive UI. Improved product management efficiency by 30% , reducing manual handling time through automation.",
+       technologies: ["JAVA","SPRING BOOT","H2 DATABASE","REACT","POSTMAN"],
+      },
+  {
+    title: "Movie Recommender System",
+    image: project4,
+    github: "https://github.com/Anushree2702/Movie-Recommender-System-using-PYTHON",
     description:
-      "CodeUp is a fully functional ed-tech platform enabling users to create, consume, and rate educational content, built using the MERN stack (ReactJS, NodeJS, MongoDB, ExpressJS). " +
-      "Advanced User Management: Implemented secure and scalable user authentication and authorization mechanisms. " +
-      "Dynamic Course Management: Developed comprehensive tools for seamless course creation, updating, deletion, and rating, enhancing user engagement and content quality. " +
-      "Seamless Payment Integration: Integrated Razorpay for efficient and secure payment processing, ensuring a smooth transaction experience. " +
-      "Robust Media Management: Leveraged Cloudinary for optimized cloud-based media handling, supporting high-quality videos, images, and documents to enrich the learning experience.",
-    technologies: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS", "Razorpay", "Cloudinary","Nodemailer"],
+      "Developed a movie recommender web app by using Python, Jupyter Notebook, and Python library (Streamlit) "+
+      "Developed a machine learning model that classified user viewing behaviours and correlated them with relevant content"+
+      "This initiative resulted in a 30% reduction in content churn and markedly improved retention rates."+
+      "Key Highlights:"+
+      "Utilized collaborative filtering and content-based filtering techniques to provide personalized movie recommendations. "+
+      "Processed and analyzed a large dataset to extract meaningful insights using Pandas and NumPy."+
+      "Implemented the recommendation engine using Python and Scikit-learn."+
+      "Visualized data trends and patterns using Matplotlib and Seaborn."+
+      "This project not only strengthened my understanding of recommendation algorithms but also provided valuable experience in end-to-end project execution, from data preprocessing to model deployment.",
+    technologies: ["Python", "Jupyter Notebook", "Streamlit(Python library)", "Pandas", "Scikit-learn", "Seaborn"],
   },
   {
     title: "Portfolio Website",
-    image: project2,
+    image: project1,
     github: "https://github.com/Kamna16/MyPortfolio",
     link: "https://kamna-portfolio.vercel.app/",
     description:
@@ -55,26 +77,18 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Framer Motion","Tailwind"],
   },
   {
-    title: "Code Converter",
+    title: "HOSPITAL CHATBOT",
     image: code,
-    github: "https://github.com/Kamna16/MyPortfolio",
-    link: "https://code-converter-silk.vercel.app/",
-    description: "A user-friendly tool that allows you to convert code between different programming languages seamlessly. Built using the Gemini API and React Monaco Editor, this converter supports multiple languages and offers an intuitive interface.",
-    technologies: ["HTML", "CSS", "React", "Monaco Editor","Tailwind", "Gemini API"],
+    link:"",
+    description: " Developed a chatbot using IBM Watson Assistant to automate appointment scheduling and simplify patient inquiries. Enabled patients to book appointments and receive specialist information from home. Increased appointment scheduling efficiency by 40% and improved patient satisfaction with 20% fewer administrative delays.",
+    technologies: ["IBM", "IBM WATSON ASSISTANT"],
   },
-  // {
-  //   title: "Bike Repair Website",
-  //   image: project3, 
-  //   github: "https://github.com/Kamna16/FixMyBike",
-  //   link: "",
-  //   description:
-  //     "I am currently building a Bike Repair website using Next.js. The application aims to improve the bike repair industry by providing innovative services and features. This project will help make bike repair services more accessible and efficient, promoting sustainable transportation.",
-  //   technologies: ["Next.js","More.."],
-  // },
+ 
+  
 ];
 
 export const CONTACT = {
-  phoneNo: "+91-9359861352",
-  email: "kamnabhadoriya042@gmail.com",
-  address: "Lohegaon, Pune Maharashtra - India"
+  phoneNo: "+91-9336362355",
+  email: "pramodpoonamsrivastava65@gmail.com",
+  address: "Lucknow , UttarPradesh - India"
 };

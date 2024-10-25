@@ -22,13 +22,13 @@ const Hero = () => {
                   variants={container(0)}
                   initial="hidden"
                   animate="visible"
-                  className='pb-10 text-4xl font-thin tracking-tight lg:mt-10 lg:text-7xl'><span className='text-3xl tracking-tight'>Hello I'm </span>Kamna</motion.h1>
+                  className='pb-10 text-4xl font-thin tracking-tight lg:mt-10 lg:text-7xl'><span className='text-3xl tracking-tight'>Hello I'm </span>Anushree Srivastava</motion.h1>
                   <motion.span
                   variants={container(0.5)}
                   initial="hidden"
                   animate="visible" 
                    className='bg-gradient-to-r from-purple-300 via-slate-500 to-darkblue-50 bg-clip-text text-4xl tracking-tight text-transparent'>
-                      A Full Stack Developer
+                      A Java Developer
                   </motion.span>
                   <motion.p 
                   variants={container(1)}
